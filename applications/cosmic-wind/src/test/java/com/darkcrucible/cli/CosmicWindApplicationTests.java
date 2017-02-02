@@ -1,4 +1,4 @@
-package com.darkcrucible;
+package com.darkcrucible.cli;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,0 +1,23 @@
+apply from: "../../java.gradle"
+
+apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+
+repositories {
+    mavenCentral()
+}
+
+
+jar {
+    baseName = 'cosmic-wind'
+    version = '0.0.1-SNAPSHOT'
+}
+
+dependencies {
+    compile(project(":libs:spring-boot-cli"))
+
+    compile('org.springframework.boot:spring-boot-starter')
+    compile('net.sf.jopt-simple:jopt-simple:4.6')
+    compile('jline:jline:2.14.3')
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+}

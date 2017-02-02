@@ -1,0 +1,4 @@
+rootProject.name = "cosmic-wind"
+include "applications:cosmic-wind"
+
+include "libs:spring-boot-cli"
