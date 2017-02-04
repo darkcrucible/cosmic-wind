@@ -14,6 +14,7 @@ jar {
 }
 
 dependencies {
+    compile(project(":components:network-stress"))
     compile(project(":libs:spring-boot-cli"))
 
     compile('org.springframework.boot:spring-boot-starter')

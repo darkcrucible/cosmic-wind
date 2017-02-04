@@ -1,4 +1,5 @@
 rootProject.name = "cosmic-wind"
 include "applications:cosmic-wind"
+include "components:network-stress"
 
 include "libs:spring-boot-cli"
